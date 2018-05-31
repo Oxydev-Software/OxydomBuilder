@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>Pages/Clients.qml</file>
+        <file>Pages/Login.qml</file>
+        <file>images/back.png</file>
+        <file>images/back@2x.png</file>
+        <file>images/back@3x.png</file>
+        <file>images/back@4x.png</file>
+        <file>images/drawer.png</file>
+        <file>images/drawer@2x.png</file>
+        <file>images/drawer@3x.png</file>
+        <file>images/drawer@4x.png</file>
+        <file>images/menu.png</file>
+        <file>images/menu@2x.png</file>
+        <file>images/menu@3x.png</file>
+        <file>images/menu@4x.png</file>
+        <file>main.cpp</file>
+        <file>images/loupe.png</file>
+        <file>images/contacts.png</file>
+        <file>Pages/Modules.qml</file>
+        <file>Pages/Gammes.qml</file>
+        <file>Pages/Modeles.qml</file>
+        <file>Pages/Projets.qml</file>
+        <file>Pages/AddClientDialog.qml</file>
+        <file>Pages/Designer2D.qml</file>
+        <file>Pages/Designer2DBase.qml</file>
+        <file>Pages/Designer2DComponent.qml</file>
+        <file>Pages/Designer2DMurs.qml</file>
+        <file>Pages/Designer2DSlot.qml</file>
+        <file>images/expand.png</file>
+        <file>images/fenetre.png</file>
+        <file>images/porte.png</file>
+    </qresource>
+</RCC>
