@@ -8,7 +8,6 @@ import javax.persistence.Table
 
 @Entity
 @Table(name="module")
-open
 data class Module (
         val libelle : String,
         val price : Float,
