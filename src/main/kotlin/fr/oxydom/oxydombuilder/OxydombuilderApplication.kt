@@ -7,11 +7,9 @@ import fr.oxydom.oxydombuilder.model.project.ProjectRepository
 import fr.oxydom.oxydombuilder.portadapter.requesthandler.RequestHandlerFacade
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
-import org.springframework.boot.autoconfigure.ImportAutoConfiguration
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 
 @SpringBootApplication
 class OxydombuilderApplication {
@@ -20,7 +18,7 @@ class OxydombuilderApplication {
     @Bean
     fun init(clientRepository: ClientRepository, projectRepository: ProjectRepository, requestHandlerFacade: RequestHandlerFacade) = CommandLineRunner {
         val client = Client("Jack", "Bauer", "jackb@gmail.com", "42 quai mandet", "Toulouse", "France", "0606975545", "male")
-        val project = Project(client)
+        val project = Project("Prometheus", "PR1","open", client)
         clientRepository.save(client)
         projectRepository.save(project)
 

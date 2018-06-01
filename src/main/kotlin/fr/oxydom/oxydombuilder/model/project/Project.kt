@@ -6,6 +6,9 @@ import javax.persistence.*
 @Entity
 @Table(name = "project")
 data class Project(
+        val libelle : String,
+        val code : String,
+        val status : String,
         @ManyToOne
         @JoinColumn
         val client: Client? = null,
